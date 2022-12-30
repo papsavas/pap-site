@@ -1,5 +1,5 @@
 import { FC } from "react";
-import { SocialMedia } from "../types.ts/socialMedia";
+import { SocialMedia } from "../types/socialMedia";
 
 const MediaRedirect: FC<SocialMedia> = ({ name, redirect, iconPath }) => {
   return (
